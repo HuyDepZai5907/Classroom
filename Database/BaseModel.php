@@ -462,7 +462,7 @@
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
                 $mail->Subject = 'Khôi phục mật khẩu của bạn';
-                $mail->Body    = "Click <a href='classroomdemo.herokuapp.com/ResetPassword.php?email=$email&token=$token'>vào đây</a> để khôi phục mật khẩu của bạn";
+                $mail->Body    = "Click <a href='classroomdemo.herokuapp/ResetPassword.php?email=$email&token=$token'>vào đây</a> để khôi phục mật khẩu của bạn";
                 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
