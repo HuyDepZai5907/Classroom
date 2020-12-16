@@ -4,7 +4,7 @@
         if(!empty($_POST['email'])){
             $base = new BaseModel();
             $base->reset_password($_POST['email']);
-            header('Location: returnlogin.html');
+            header('Location: ReturnLogin.html');
             die();
         }
     }
