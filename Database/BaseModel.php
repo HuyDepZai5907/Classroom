@@ -117,7 +117,7 @@
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
                 $mail->Subject = 'Xác minh tài khoản của bạn';
-                $mail->Body    = "Click <a href='../Activate.php?email=$email&token=$token'>vào đây</a> để xác minh tài khoản của bạn";
+                $mail->Body    = "Click <a href='Activate.php?email=$email&token=$token'>vào đây</a> để xác minh tài khoản của bạn";
                 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
