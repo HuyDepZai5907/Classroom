@@ -6,6 +6,6 @@
         die();
     }
     if(isset($_SESSION['username'])&&isset($_SESSION['password'])){
-        header('Location: ./user/Home.php');
+        header('Location: ./User/Home.php');
         die();
     }
