@@ -47,7 +47,7 @@ require_once('vendor/autoload.php');
                     $_SESSION['role'] = $data['vaitro'];
                     $_SESSION['fullname']=$data['Ho'].' '.$data['Ten'];
                     //unset($_POST);
-                    header("Location: ./index.php");
+                    header("Location: index.php");
                     die();
                 }
                 else{
