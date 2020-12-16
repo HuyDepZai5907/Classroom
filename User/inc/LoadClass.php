@@ -33,5 +33,5 @@ else{
     $ClassInfor = $data['data'];
     $_SESSION['allclass'] = $ClassInfor;
 }
-echo 'Hello world' 
+echo 'Hello world' ;
 ?>

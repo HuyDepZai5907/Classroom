@@ -48,7 +48,7 @@
     }
     // $arr is now array(2, 4, 6, 8)
     unset($Class); // break the reference with the last element
-	echo 'Hello world'
+	echo 'Hello world';
     ?>
 
 </div>
