@@ -2,10 +2,10 @@
     session_start();
 // front controller
 if((!isset($_SESSION['username']))||(!isset($_SESSION['password']))){
-    header('Location: index.php');
+    header('Location: ../index.php');
     die();
 }
-include_once '/vendor/autoload.php';
+include_once '../vendor/autoload.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
