@@ -47,7 +47,7 @@ require_once('vendor/autoload.php');
                     $_SESSION['role'] = $data['vaitro'];
                     $_SESSION['fullname']=$data['Ho'].' '.$data['Ten'];
                     //unset($_POST);
-                    header("Location: index.php");
+                    header("Location: ./index.php");
                     die();
                 }
                 else{
@@ -81,7 +81,7 @@ require_once('vendor/autoload.php');
                             <div class="auth-form-relations">
                                 <div class="form-help">
                                     <a href="ForgetPassword.php" class="form-help-link form-help-forgot">Quên mật khẩu</a>
-                                    <a href="Help.html" class="form-help-link">Cần trợ giúp?</a>
+                                    <a href="help.html" class="form-help-link">Cần trợ giúp?</a>
                                 </div>
                             </div>
                             <?php

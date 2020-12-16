@@ -25,7 +25,7 @@ window.onload = (event) => {
         shareContent.style.display = "block";
         partition.style.display = "none";
     });
-    $.get( "user/inc/GetAction.php", function( data ) {
+    $.get( "http://localhost/user/inc/GetAction.php", function( data ) {
         var action = JSON.parse(data).action;
         if(action == 'ClassStream')
             ChangeFunctionBtnColor($('.stream-button'));

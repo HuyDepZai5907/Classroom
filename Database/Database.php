@@ -1,15 +1,8 @@
-<?
-// develop connection
-#define('HOST','localhost');
-#define('USERNAME','root');
-#define('PSWD','');
-#define('DBNAME','ClassRoom');
-// deploy connection
-define('HOST','remotemysql.com');
-define('USERNAME','KRDPwQsBjk');
-define('PSWD','UV5rw5J8ju');
-define('DBNAME','KRDPwQsBjk');
-
+<?php
+define('HOST','localhost');
+define('USERNAME','root');
+define('PSWD','');
+define('DBNAME','ClassRoom');
     class Database {
 
         private static $db;
