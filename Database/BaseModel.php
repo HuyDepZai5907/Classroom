@@ -117,7 +117,7 @@
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
                 $mail->Subject = 'Xác minh tài khoản của bạn';
-                $mail->Body    = "Click <a href='http://localhost/Activate.php?email=$email&token=$token'>vào đây</a> để xác minh tài khoản của bạn";
+                $mail->Body    = "Click <a href='../Activate.php?email=$email&token=$token'>vào đây</a> để xác minh tài khoản của bạn";
                 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
@@ -462,7 +462,7 @@
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
                 $mail->Subject = 'Khôi phục mật khẩu của bạn';
-                $mail->Body    = "Click <a href='http://localhost/ResetPassword.php?email=$email&token=$token'>vào đây</a> để khôi phục mật khẩu của bạn";
+                $mail->Body    = "Click <a href='../ResetPassword.php?email=$email&token=$token'>vào đây</a> để khôi phục mật khẩu của bạn";
                 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
@@ -507,7 +507,7 @@
                 // Content
                 $mail->isHTML(true);                                  // Set email format to HTML
                 $mail->Subject = 'Lời mời tham gia lớp học';
-                $mail->Body    = "Bạn được mời tham gia vào lớp học <a href='http://localhost/AcceptInvite.php?user=$user&classID=$classID&token=$token'>$className</a> với vai trò $role";
+                $mail->Body    = "Bạn được mời tham gia vào lớp học <a href='../AcceptInvite.php?user=$user&classID=$classID&token=$token'>$className</a> với vai trò $role";
                 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
