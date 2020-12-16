@@ -36,9 +36,9 @@ include_once '../vendor/autoload.php';
     $_SESSION['userIMG']=$user_infor['userIMG'];
 
     //Xử lý form tạo lớp học
-    include_once 'User/inc/CreateNewClass.php';
+    include_once './inc/CreateNewClass.php';
     //Tải lên danh sách lớp học
-    include 'User/inc/LoadClass.php';
+    include './inc/LoadClass.php';
 
 
 
