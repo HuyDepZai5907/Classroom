@@ -275,7 +275,7 @@ if($_SESSION['role']!==3){
         ?>
         <div class="container-fluid p-4">
             <?php
-                include '.\inc\Classlist.php';
+                include './inc/LoadClass.php';
             ?>
         </div>
     </section>
